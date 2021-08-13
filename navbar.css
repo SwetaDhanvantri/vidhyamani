@@ -1,0 +1,35 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color:#37517e !important;
+    color: white !important;
+}
+.navbar .navbar-brand{
+    color:transparent;
+    transition: transform .2s; /* animation */
+    color: black !important;
+   
+}
+.navbar .navbar-brand:hover{
+    ms-transform: scale(1.5) !important;
+    -webkit-transform: scale(1.5) !important;
+    transform: scale(1.5) !important;
+    
+
+}
+.navbar .navbar-nav li a{
+       color: #fff !important;
+       transition: transform .2s; /* animation */
+       padding: 20px;
+       margin-right: 20px;
+
+}
+.navbar .navbar-nav li a:hover{
+    -ms-transform: scale(1.5) !important;
+    -webkit-transform: scale(1.5) !important;
+    transform: scale(1.5) !important;
+}
+.navbar .navbar-toggler{
+    color: #fff !important;
+}
