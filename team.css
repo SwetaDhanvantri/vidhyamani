@@ -1,17 +1,61 @@
 .headert .container {
   padding: 40px;
+  padding-top: 60px;
 }
 
 /*--------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
-.team .member {
-  position: relative;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+.team {
+  padding: 40px;
+  height: auto;
+  width: 100%;
+}
+
+.team .container {
+  justify-content: center;
   padding: 30px;
+}
+
+.team .container {
+  justify-content: center;
+  padding: 30px;
+}
+
+.team h4 {
+  font-weight: 800;
+  color: #37517e;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.team p {
+  padding-bottom: 45px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team .container {
+
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 270px;
+  position: relative;
   border-radius: 5px;
-  background: #fff;
-  transition: 0.5s;
+  background-color: rgb(240, 234, 234);
+  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.team .container:hover {
+  transform: scale(1.2, 1.2);
+}
+
+
+/* Fade in the pseudo-element with the bigger shadow */
+.team .container:hover::after {
+  opacity: 1;
 }
 
 .team .member .pic {
@@ -24,7 +68,7 @@
   transition: ease-in-out 0.3s;
 }
 
-.team .member:hover {
+.team .container :hover {
   transform: translateY(-10px);
 }
 
@@ -44,7 +88,7 @@
   font-size: 15px;
   padding-bottom: 10px;
   position: relative;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .team .member span::after {
