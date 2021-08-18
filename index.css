@@ -121,10 +121,11 @@ body {
 
 .wrapper .icon {
   position: relative;
+  color: black;
   background-color: #fff;
   border-radius: 50%;
-  padding: 15px;
-  margin: 30px;
+  padding: 10px;
+  margin: 10px;
   width: 50px;
   height: 50px;
   font-size: 22px;
@@ -263,4 +264,10 @@ body {
 .section2 .icon {
   font-size: 32px;
   padding: 20px;
+}
+
+.bg {
+  background-image: url("images/pngc.png");
+  background-repeat: no-repeat;
+  background-size:auto;
 }

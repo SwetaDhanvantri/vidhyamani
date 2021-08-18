@@ -5,18 +5,147 @@
 /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
+.contact {
+  padding: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.contact h4 {
+  color: #37517e;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.contact .form1 {
+  width: 100%;
+  border-top: 3px solid #37517e;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 7px 0px 5px -3px grey, 0px 8px 7px -3px gray, -7px 0px 5px -3px rgba(180, 179, 179, 0.5);
+}
+
+.contact .icon {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+
+
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 2px 6px 14px 3px #000;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #fff;
+  bottom: -3px;
+  left: 50px;
+  transform: translate(-50%) rotate(46deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #0088cc;
+  color: #fff;
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #1c0ee6;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #a30d7e;
+  color: #fff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background-color: #072433;
+  color: rgb(252, 248, 248);
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #970b0b;
+  color: #fff;
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact .container {
+  text-align: center;
+  margin-top: 40px;
+  justify-content: center;
+}
+
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #37517e;
+
   padding: 30px;
   background: #fff;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 7px 0px 5px -3px grey, 0px 8px 7px -3px gray, -7px 0px 5px -3px rgba(180, 179, 179, 0.5);
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: #37517e;
   float: left;
   width: 44px;
   height: 44px;
@@ -40,7 +169,7 @@
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: #37517e;
 }
 
 .contact .info .email p {
@@ -67,24 +196,23 @@
 }
 
 .contact .info .social-links a:hover {
-  background: #47b2e4;
+  background: #37517e;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #47b2e4;
+  background: #37517e;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #37517e;
   padding: 30px;
   background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 7px 0px 5px -3px grey, 0px 8px 7px -3px gray, -7px 0px 5px -3px rgba(180, 179, 179, 0.5);
 }
 
 .contact .php-email-form .form-group {
@@ -115,7 +243,7 @@
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #37517e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -135,7 +263,7 @@
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #37517e;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -159,7 +287,7 @@
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #47b2e4;
+  border-color: #37517e;
 }
 
 .contact .php-email-form input {
@@ -171,7 +299,7 @@
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #47b2e4;
+  background: #37517e;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -180,5 +308,5 @@
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #209dd8;
+  background: #37517e;
 }

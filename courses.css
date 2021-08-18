@@ -4,7 +4,41 @@
 
 .services h4 {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     color: #37517e;
     font-weight: bold;
+    font: 16px;
+
+}
+
+.services .container {
+    padding: 50px;
+}
+
+.services a {
+    text-decoration: none;
+    color: #000;
+}
+
+.services h5 {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.services .icon-box {
+    padding: 20px;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    border: solid rgb(13, 39, 94);
+
+    justify-content: center;
+    box-shadow: 0px 0px 5px 5px rgb(48, 92, 168);
+}
+
+.services ul {
+    font-weight: 600;
+    padding-top: 10px;
 }
