@@ -21,6 +21,7 @@ body {
 }
 
 .navbar .navbar-brand:hover {
+
     ms-transform: scale(1.5) !important;
     -webkit-transform: scale(1.5) !important;
     transform: scale(1.5) !important;

@@ -38,6 +38,14 @@ body {
 
 }
 
+.section0 .btn:hover {
+  background-color: rgb(211, 166, 18);
+  color: #fff;
+  ms-transform: scale(1.5) !important;
+  -webkit-transform: scale(1.5) !important;
+  transform: scale(1.5) !important;
+}
+
 .section0 img {
   height: auto;
   width: 100%;
@@ -281,6 +289,25 @@ footer div {
   padding: 0px;
   color: #fff;
   text-align: center;
+}
+
+.php-email-form .btn {
+  color: black;
+  background-color: #fff;
+  border-radius: 20px;
+
+}
+
+.page-footer p {
+  font-size: 18px;
+}
+
+.php-email-form .btn:hover {
+  background-color: rgb(211, 166, 18);
+  color: #fff;
+  ms-transform: scale(1.5) !important;
+  -webkit-transform: scale(1.5) !important;
+  transform: scale(1.5) !important;
 }
 
 svg {
