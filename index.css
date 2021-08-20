@@ -269,6 +269,31 @@ body {
   padding: 20px;
 }
 
+.earn h2 {
+  position: relative;
+  animation-name: example;
+
+  color: rgb(240, 80, 80);
+
+
+
+  animation: slideInRight 5s linear delay infinite example forwards;
+
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    background-color: rgb(104, 13, 13);
+    left: 100px;
+    top: 0px;
+  }
+}
 
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
