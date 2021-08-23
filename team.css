@@ -3,22 +3,17 @@
   padding-top: 60px;
 }
 
+
 /*--------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
 .team {
   padding: 40px;
-  height: auto;
-  width: 100%;
+
 }
 
-.team .container {
-  justify-content: center;
-  padding: 30px;
-}
 
 .team .container {
-  justify-content: center;
   padding: 30px;
 }
 
@@ -35,12 +30,10 @@
   margin-bottom: 40px;
 }
 
-.team .container {
+.team .c1 {
 
   padding: 10px;
   margin-bottom: 30px;
-  width: 400px;
-  height: 270px;
   position: relative;
   border-radius: 5px;
   background-color: rgb(240, 234, 234);
