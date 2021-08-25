@@ -15,6 +15,15 @@
    background-color: rgb(252, 244, 244);
  }
 
+ .faq .card:hover,
+ .card-header:hover,
+ .card-link:hover {
+   background-color: #37517e;
+   color: #fff;
+
+ }
+
+
  .faq .card .btn {
    text-decoration: none;
    color: black;
@@ -22,10 +31,22 @@
    font-size: large;
  }
 
+ .faq h2 {
+   color: #37517e;
+ }
+
  .faq .card h5 {
    font-size: large;
    font-weight: bold;
+   color: #000;
  }
+
+ .faq a {
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+ }
+
 
  /* footer */
 
@@ -37,7 +58,7 @@
  }
 
 
-
+ /* footer*/
  .fab {
    font-family: 'Font Awesome 5 Brands';
    font-weight: 400;
@@ -192,8 +213,6 @@
    background-color: #fff;
    margin-top: 45px;
    margin-bottom: 45px;
-
-
    padding: 15px 15px 15px 15px;
  }
 
