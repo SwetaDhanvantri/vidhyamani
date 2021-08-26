@@ -52,22 +52,17 @@
 
 .services table {
 
-    font-size: 30px;
+    font-size: 18px;
 
 
 }
 
 .services .table2 {
-    font-size: 26px;
+    font-size: 18px;
 }
 
-.services img {
-    height: 45px;
-    width: 50px;
-    padding-right: 7px;
-    margin-right: 10px;
-}
 
+/* crousal */
 
 
 .mid .carousel-caption {
@@ -111,6 +106,63 @@
 
 .course .card-body {
     background-color: #fff;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course img {
+    height: 250px;
+    width: 400px;
+    padding: 30px;
+}
+
+.course h5 {
+    text-align: center;
+    margin-top: -20px;
+    font-weight: 700;
+    color: black;
+    border: 1px solid #fff;
+
+    background-color: #fff;
+}
+
+
+
+.box div {
+    background-color: #fff;
+    box-shadow: 0 15px 18px rgba(179, 179, 179, .6);
+    margin-bottom: 20px;
+}
+
+.course h3 {
+    padding: 20px;
+    border: 2px solid rgba(179, 179, 179, .6);
+    box-shadow: 0 15px 18px rgba(179, 179, 179, .6);
+    color: #37517e;
+    font-weight: 700;
+}
+
+.course h4 {
+    color: #E81A30;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.typing-container {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.typing-container .sentence {
+    color: #37517e;
 }
 
 /* footer */
