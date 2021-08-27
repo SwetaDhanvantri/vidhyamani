@@ -36,7 +36,7 @@ async function carousel(carouselList, eleRef) {
     while(true) {
       updateFontColor(eleRef, carouselList[i].color)
       await typeSentence(carouselList[i].text, eleRef);
-      await waitForMs(1500);
+      await waitForMs(1000);
       await deleteSentence(eleRef);
       await waitForMs(500);
       i++

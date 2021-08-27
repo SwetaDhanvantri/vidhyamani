@@ -62,28 +62,6 @@
 }
 
 
-/* crousal */
-
-
-.mid .carousel-caption {
-
-    text-align: center;
-    margin-bottom: 700px;
-
-}
-
-
-.mid h3 {
-
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.mid .carousel-item img {
-    height: auto;
-    width: 70%;
-}
 
 /*course*/
 .course {

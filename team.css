@@ -4,9 +4,49 @@
 }
 
 
+
 /*--------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
+.pro .container {
+  margin-top: 50px;
+}
+
+.pro img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.pro .container {
+  background-color: rgb(252, 252, 252);
+  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.15);
+  will-change: transform;
+  transition: transform 450ms;
+
+
+}
+
+.pro .container:hover {
+  transition: transform 125ms;
+  transform: translateY(-15px);
+}
+
+.pro .box {
+  padding: 30px;
+}
+
+
+.pro h4 {
+  font-weight: 700;
+  color: #37517e;
+
+}
+
+.pro span {
+  font-weight: 600;
+  color: #000;
+}
+
 .team {
   padding: 40px;
 
@@ -14,15 +54,11 @@
 
 
 .team .container {
-  padding: 30px;
+  padding: 50px;
+
 }
 
-.team h4 {
-  font-weight: 800;
-  color: #37517e;
-  padding: 30px;
-  margin-bottom: 30px;
-}
+
 
 .team p {
   padding-bottom: 45px;
@@ -36,7 +72,7 @@
   margin-bottom: 30px;
   position: relative;
   border-radius: 5px;
-  background-color: rgb(240, 234, 234);
+  background-color: rgb(252, 252, 252);
   box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease-in-out;
 }
@@ -100,41 +136,6 @@
   font-size: 14px;
 }
 
-.team .member .social {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.team .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #eff2f8;
-}
-
-.team .member .social a i {
-  color: #37517e;
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-.team .member .social a:hover {
-  background: #47b2e4;
-}
-
-.team .member .social a:hover i {
-  color: #fff;
-}
-
-.team .member .social a+a {
-  margin-left: 8px;
-}
 
 /*footer */
 
