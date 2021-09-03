@@ -1,32 +1,132 @@
-.header1 .container {
-  padding: 40px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff
 }
 
-.about {
-
-  justify-content: center;
-
+.header .container {
+  padding-top: 30px;
+  margin-top: 40px;
 }
 
-.about .container {
-  margin-top: 10px;
-  padding: 40px;
-
-  justify-content: center;
-
+.section0 .container-fluid {
+  background-color: #37517e;
+  padding-top: 40px;
+  margin-top: 50px;
 }
 
-.about h4 {
-  text-align: center;
-  padding: 20px;
-  color: #37517e;
+.section0 {
+  width: 100%;
+  height: auto;
+  background: #37517e;
+  padding-top: 40px;
+}
+
+
+
+.section0 h1 {
+  color: white;
+  font-size: 48px;
   font-weight: 700;
-  font-size: 26px;
+  color: #fff;
+
 
 }
 
+.section0 h3 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
 
-/* footer---*/
+
+}
+
+.section0 .btn {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0px;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background-color: #37517e;
+  border: 2px solid #fff;
+  font-size: 18px;
+
+
+}
+
+.section0 .btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section0 .btn::before {
+  content: "";
+  background-color: rgb(255, 255, 255, 0.5);
+  transform: skew(-45deg) translate(0);
+  transition: 0;
+}
+
+.section0 .btn:hover {
+  color: #37517e;
+  background-color: #fff;
+
+}
+
+.section0 .btn:hover::before {
+  transform: skew(-45deg) translateX(13.5em);
+  transition: all 0.3s ease-in-out;
+}
+
+.section0 .btn:active {
+  background-color: #787A91;
+  color: #0d3c5b;
+
+}
+
+.section0 .btn:active:before {
+  transform: translate(-4px);
+  transition: translate 0.3s ease-in-out;
+}
+
+.section0 img {
+  height: auto;
+  width: 100%;
+}
+
+.section0 img {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.section1 {
+  background-color: white;
+  padding-top: 70px;
+}
+
+.section1 h1 {
+  font-weight: bold;
+}
+
 
 .footdiv {
 
@@ -57,29 +157,6 @@
   color: #fff;
 }
 
-.page-footer h4 {
-  color: #fff;
-}
-
-.php-email-form .btn {
-  color: black;
-  background-color: #fff;
-  border-radius: 20px;
-
-}
-
-.php-email-form .btn:hover {
-  background-color: rgb(211, 166, 18);
-  color: #fff;
-  ms-transform: scale(1.5) !important;
-  -webkit-transform: scale(1.5) !important;
-  transform: scale(1.5) !important;
-}
-
-
-.page-footer p {
-  font-size: 18px;
-}
 
 .wrapper {
   display: flex;
@@ -232,6 +309,51 @@
 
 
 
+.blink_me {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: #db0e0e;
+  font-weight: bold;
+
+}
+
+.esection {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+.earn {
+
+  text-decoration: none;
+  color: rgb(2, 39, 2);
+  background-color: white;
+  border: 3px solid rgb(2, 39, 2);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.earn:hover {
+  background-color: rgb(2, 39, 2);
+  color: #fff;
+
+}
+
+.earn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.esection .btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/*Footer*/
+
+
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 
 body {
@@ -250,6 +372,25 @@ footer div {
   padding: 0px;
   color: #fff;
   text-align: center;
+}
+
+.php-email-form .btn {
+  color: black;
+  background-color: #fff;
+  border-radius: 20px;
+
+}
+
+.page-footer p {
+  font-size: 18px;
+}
+
+.php-email-form .btn:hover {
+  background-color: rgb(211, 166, 18);
+  color: #fff;
+  ms-transform: scale(1.5) !important;
+  -webkit-transform: scale(1.5) !important;
+  transform: scale(1.5) !important;
 }
 
 svg {

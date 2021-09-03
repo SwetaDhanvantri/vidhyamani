@@ -2,7 +2,7 @@
  const carouselText = [
   {text: "ACEDAMIC COURSES", color: "red"},
   {text: "SKILL BASED COURSES", color: "orange"},
-  {text: "COMPETITIVE EXAMS PREPARATION", color: "yellow"}
+  {text: "COMPETITIVE EXAMS PREPARATION", color: "green"}
 ]
 
 $( document ).ready(async function() {

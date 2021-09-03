@@ -18,7 +18,7 @@
     <!-- Font Awesome -->
 
   </head>
-  <body>
+  <body class="noselect">
  
      <header class="headert">
         <div class="container">
@@ -79,7 +79,7 @@
                 <div class="d-flex flex-column">
                   <div> <h1 class="py-5">Gear Yourself For The Most Unique Teaching Experience Ever</h1></div>
                   <div><h3 class="pb-3">Shape and boost your future with Vidyamani</h3></div>
-                  <div><button class="btn btn-light px-5 py-2">Get Started</button></div>
+                  <div><button class="btn btn-light px-5 py-2"><a href="about.html" class="button">Get Started</a></button></div>
                 </div>
              </div>
               <div class="col-lg-5">
@@ -100,16 +100,16 @@
          <div class="container">
            <div class="row">
              <div class="col-lg-6 order-1">
-               <div><img src="images/hero-img.png" class="img-fluid" alt="Responsive image"></div>
+               <div><img src="images/main sec.jpg" class="img-fluid" alt="Responsive image"></div>
              </div>
              <div class="col-lg-6">
                <div class="panel text-left mt-5">
                  <h1 class="text-center">We help you make your dreams come true</h1>
-                 <p class="pt-4">You pay no fees while studying at Vidhyamani.
-                    Only once you complete the course, get placed and start earning Rs. 5 lakh or more per year, 
-                    you will pay 15% of your monthly income towards the Income Share
-                     Agreement (ISA) for a maximum of 3 years or until you have paid Rs 3 lakhs (including GST).
-
+                 <p class="pt-4">"Vidyamani" is such an educational institution that teaches children through online education.
+                  Our aim is to provide the best education to the children at an affordable cost. 
+                  We give emphasis to children to read in an enjoyable way so that their proper mental development can take place.
+                 Our aim is to give the right education in the right way so that the child enjoys the study and not considers it as an indulgence.
+   
                  </p>
                  <p>Vidhyamani is a place where students learn with fun. We belives in practical
                    eduaction. We make help to grow child's mind ability.
@@ -171,7 +171,7 @@
              <span class="icon"><i class="fas fa-envelope"></i></span>
               <p><a href="mailto: vidhyamaniedu@gmail.com">vidhyamaniedu@gmail.com</a></p>
               <span class="icon"><i class="fas fa-phone"></i></span>
-              <p><a href="tel:8527014582">8527014582</a> </p>
+              <p><a href="tel:8527014582">7011690640</a> </p>
               <section class="social text-center">
                
                    <div class="wrapper text-center justify-content-center">
@@ -207,7 +207,7 @@
 
         </div>
      <div class="col-xl-6 ">
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form ml-4 px-4">
+      <form  method="post" role="form" class="php-email-form ml-4 px-4">
         <div class="row">
           <div class="form-group col-md-6 pt-4 pb-2">
             <label for="name">Your Name</label>
@@ -232,17 +232,23 @@
    </div>
 
     <div class="col-xl-12 mt-2">
-      
+      <form action="subscribe.html" method="post" id="subscribe">
         <div class="card">
           <h3 class="text-center">SUBSCRIBE </h3>
             <div class="text-center"> 
                 <div class="mx-5">
-                    <div class="input-group pb-3 mt-4"> <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2"> <button class="btn btn-success border-rad" type="button" id="button-addon2">Subscribe</button> </div>
+                    <div class="input-group pb-3 mt-4"> 
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2" required> 
+                    <button class="btn btn-success border-rad" type="button" id="button-addon2" type="submit" value="subscribe" onclick="subscribe()">Subscribe</button>
+                    <small></small>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+  </form>
 </div>
+
  </div>
         
  
@@ -303,8 +309,11 @@
 
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
-  </body>
+    <script src="subscribe.js"></script>
+
+    <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=yjS0EXgdVf7WoCv6K6r0VzSJJRQq5QhcQ6E8kpKlCVgnYYHskppEq4DCvH1j"></script></span>
+    
+
 </html>
 
    

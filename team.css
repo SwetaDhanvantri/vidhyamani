@@ -8,6 +8,16 @@
 /*--------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
+main h4 {
+  color: #37517e;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+main p {
+  font-size: large;
+}
+
 .pro .container {
   margin-top: 50px;
 }
@@ -45,95 +55,6 @@
 .pro span {
   font-weight: 600;
   color: #000;
-}
-
-.team {
-  padding: 40px;
-
-}
-
-
-.team .container {
-  padding: 50px;
-
-}
-
-
-
-.team p {
-  padding-bottom: 45px;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.team .c1 {
-
-  padding: 10px;
-  margin-bottom: 30px;
-  position: relative;
-  border-radius: 5px;
-  background-color: rgb(252, 252, 252);
-  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.15);
-  transition: all 0.2s ease-in-out;
-}
-
-.team .container:hover {
-  transform: scale(1.2, 1.2);
-}
-
-
-/* Fade in the pseudo-element with the bigger shadow */
-.team .container:hover::after {
-  opacity: 1;
-}
-
-.team .member .pic {
-  overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
-}
-
-.team .member .pic img {
-  transition: ease-in-out 0.3s;
-}
-
-.team .container :hover {
-  transform: translateY(-10px);
-}
-
-.team .member .member-info {
-  padding-left: 30px;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #37517e;
-}
-
-.team .member span {
-  display: block;
-  font-size: 15px;
-  padding-bottom: 10px;
-  position: relative;
-  font-weight: 700;
-}
-
-.team .member span::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #cbd6e9;
-  bottom: 0;
-  left: 0;
-}
-
-.team .member p {
-  margin: 10px 0 0 0;
-  font-size: 14px;
 }
 
 
@@ -455,4 +376,20 @@ svg {
   font-size: 50px;
   padding: 20px;
 
+}
+
+/* no copy*/
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
 }
