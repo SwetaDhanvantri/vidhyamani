@@ -5,23 +5,51 @@
 }
 
 .earn .container {
-    background-color: aliceblue;
+    background-color: white;
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
 .earn h1 {
     font-weight: bold;
     color: #37517e;
+    font-size: 75px;
+    margin-top: 50px;
+    padding-top: 40px;
+    font-display: initial;
+
+
 }
 
+
 .earn p {
-    font-size: large;
+    font-size: 22px;
+    text-align: center;
+    padding: 60px;
+
 }
+
+.earn .container-fluid {
+    background-color: ivory;
+}
+
+
+.earn img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    padding-bottom: 60px;
+    float: right;
+}
+
 
 /* upload */
 #upload {
-
+    margin-top: 40px;
+    margin-bottom: 140px;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(to right, #37517e, #98b9f1);
