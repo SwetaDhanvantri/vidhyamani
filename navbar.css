@@ -4,11 +4,15 @@ body {
 
 .header .container {
     padding: 30px;
+    overflow: hidden;
 }
 
 .navbar {
-    background-color: #37517e !important;
+    background: linear-gradient(
+-45deg, #1391a5, #274685) !important;
     color: white !important;
+    overflow: hidden;
+    margin: 0 !important;
 
 }
 
@@ -44,14 +48,6 @@ body {
     transform: scale(1.5) !important;
 }
 
-.navbar .navbar-toggler {
 
-    border-color: rgb(250, 250, 250);
 
-    background-repeat: no-repeat;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
 
-.dark-toggler .navbar.navbar-toggler {
-    border-color: rgb(253, 253, 253);
-}

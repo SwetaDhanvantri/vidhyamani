@@ -9,7 +9,7 @@
   # Team
   --------------------------------------------------------------*/
 main h4 {
-  color: #37517e;
+  color:#274685;
   font-weight: 700;
   font-size: 26px;
 }
@@ -48,7 +48,7 @@ main p {
 
 .pro h4 {
   font-weight: 700;
-  color: #37517e;
+  color:#274685;
 
 }
 
@@ -59,65 +59,87 @@ main p {
 
 
 /*footer */
-
-.footdiv {
-
-  background-color: white;
-  color: black;
-
-}
-
-
-
-.fab {
+fab {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400;
 }
 
 .page-footer {
   background-color: white;
-  color: #fff;
+  color:#274685;
+  padding: 20px;
+}
+.page-footer .container{
+  padding: 30px 20px 20px 20px;
+  border: solid rgb(247, 243, 243);
+  background-color: #fff;
+  box-shadow: 10px 10px 5px rgb(202, 202, 202);
+  
+  margin-bottom: 30px;
+}
+.page-footer h4{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.page-footer .container-fluid {
+  background-color: #fff;
 }
 
 .page-footer a {
-  color: #fff;
-}
+  color:#274685;
 
+}
+.page-footer a:hover{
+  color:inherit;
+ 
+}
 .page-footer img {
   height: 50px;
   width: 50px;
-  color: #fff;
+  color: #274685;
 }
 
-.php-email-form .btn {
-  color: black;
-  background-color: #fff;
-  border-radius: 20px;
+.page-footer .icon .fas {
+  font-size: 50px;
+  padding: 20px;
 
 }
-
-.php-email-form .btn:hover {
-  background-color: rgb(211, 166, 18);
-  color: #fff;
-  ms-transform: scale(1.5) !important;
-  -webkit-transform: scale(1.5) !important;
-  transform: scale(1.5) !important;
-}
-
 
 .page-footer p {
   font-size: 18px;
 }
-
-
-.wrapper {
-  display: flex;
-
-
+.page-footer h5{
+  color: #fff;
+   justify-content: center;
+   text-align: center;
+  }
+  .page-footer .head{
+   padding: 10px;
+    border:1px solid #274685;
+    color: #fff;
+    background: linear-gradient(
+-45deg, #1391a5, #274685) !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 40px;
 }
 
+.page-footer .iconify {
+  height: 40px;
+  width: 80px;
+
+  margin-bottom: 30px;
+  background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/logos/google-gmail.svg');
+}
+
+/* social icons start*/
+
 .wrapper .icon {
-  position: relative;
   color: black;
   background-color: #fff;
   border-radius: 50%;
@@ -126,111 +148,49 @@ main p {
   width: 50px;
   height: 50px;
   font-size: 22px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  box-shadow: 2px 6px 14px 3px #000;
+ box-shadow: 2px 6px 14px 3px rgb(175, 171, 171);
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: transform 250ms;
+}
+.wrapper .icon:hover {
+  transform: translateY(-10px);
 }
 
-.wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background-color: #fff;
-  color: #fff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+.wrapper .twitter {
+  background-color: #1da1f2;
+  font-size: 28px;
 }
 
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background-color: #fff;
-  bottom: -3px;
-  left: 50px;
-  transform: translate(-50%) rotate(46deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+.wrapper .linkedin {
+  background-color: #007bb6;
+  font-size: 28px;
 }
 
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background-color: #0088cc;
-  color: #fff;
+.wrapper .facebook {
+  background-color: #3b5998;
+  font-size: 28px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-  background-color: #1c0ee6;
-  color: #fff;
+.wrapper .instagram {
+ 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  font-size: 28px;
 }
 
-.wrapper .instagram:hover,
-.wrapper .instagram:hover:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background-color: #a30d7e;
-  color: #fff;
+.wrapper .youtube {
+  background-color: #ff0000;
+  font-size: 28px;
 }
 
-.wrapper .linkedin:hover,
-.wrapper .linkedin:hover .tooltip,
-.wrapper .linkedin:hover .tooltip::before {
-  background-color: #072433;
-  color: rgb(252, 248, 248);
+.wrapper .fab {
+  color: white;
 }
 
-.wrapper .youtube:hover,
-.wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
-  background-color: #970b0b;
-  color: #fff;
-}
-
-.wrapper .icon:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-
-}
-
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-/* Subscribe */
-
-
-.card {
-
-  padding: 20px 20px 20px 20px;
-  background-color: #37517e;
-  margin-top: 10px;
-  border: none;
-}
-
-.social .container {
-  background-color: #fff;
-  margin-top: 45px;
-  margin-bottom: 45px;
-
-
-  padding: 15px 15px 15px 15px;
-}
-
-.social h5 {
-  font-weight: bold;
-}
 
 .section2 {
   height: 350px;
@@ -263,23 +223,6 @@ main p {
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 
-body {
-  font-family: Lato, sans-serif;
-}
-
-footer {
-  width: 100vw;
-  background-color: white;
-  bottom: 0px
-}
-
-footer div {
-  background-color: #37517e;
-  margin: -5px 0px 0px 0px;
-  padding: 0px;
-  color: #fff;
-  text-align: center;
-}
 
 svg {
   width: 100%;
@@ -287,20 +230,20 @@ svg {
 
 .arrow {
   stroke-width: .3px;
-  stroke: yellow;
+  stroke: #274685;
 }
 
 
 .wave {
   animation: wave 3s linear;
   animation-iteration-count: infinite;
-  fill: #37517e;
+  fill: #274685;
 }
 
 .drop {
   fill: transparent;
   animation: drop 5s ease infinite normal;
-  stroke: #37517e;
+  stroke:#274685;
   stroke-width: 0.5;
   opacity: .6;
   transform: translateY(80%);
@@ -376,6 +319,14 @@ svg {
   font-size: 50px;
   padding: 20px;
 
+}
+
+.page-footer .iconify {
+  height: 40px;
+  width: 80px;
+  margin-bottom: 5px;
+  background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/logos/google-gmail.svg');
 }
 
 /* no copy*/

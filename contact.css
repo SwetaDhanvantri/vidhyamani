@@ -3,23 +3,28 @@
 }
 
 /*--------------------------------------------------------------
-  # Contact
+  # Contact start
   --------------------------------------------------------------*/
 .contact {
   padding: 20px;
   margin-top: 20px;
+
   justify-content: center;
 }
 
+.contact .container {
+  padding-bottom: 40px;
+}
+
 .contact h4 {
-  color: #37517e;
+  color: #274685;
   padding: 10px;
   font-weight: bold;
 }
 
 .contact .form1 {
   width: 100%;
-  border-top: 3px solid #37517e;
+  border-top: 3px solid #274685;
   padding: 30px;
   background: #fff;
   box-shadow: 7px 0px 5px -3px grey, 0px 8px 7px -3px gray, -7px 0px 5px -3px rgba(180, 179, 179, 0.5);
@@ -28,103 +33,7 @@
 .contact .icon {
   font-size: 50px;
   padding: 10px;
-}
-
-.wrapper {
-  display: flex;
-
-
-}
-
-.wrapper .icon {
-  position: relative;
-  background-color: #fff;
-  border-radius: 50%;
-  padding: 15px;
-  margin: 15px;
-  width: 50px;
-  height: 50px;
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  box-shadow: 2px 6px 14px 3px #000;
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background-color: #fff;
-  color: #fff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background-color: #fff;
-  bottom: -3px;
-  left: 50px;
-  transform: translate(-50%) rotate(46deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background-color: #0088cc;
-  color: #fff;
-}
-
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-  background-color: #1c0ee6;
-  color: #fff;
-}
-
-.wrapper .instagram:hover,
-.wrapper .instagram:hover:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background-color: #a30d7e;
-  color: #fff;
-}
-
-.wrapper .linkedin:hover,
-.wrapper .linkedin:hover .tooltip,
-.wrapper .linkedin:hover .tooltip::before {
-  background-color: #072433;
-  color: rgb(252, 248, 248);
-}
-
-.wrapper .youtube:hover,
-.wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
-  background-color: #970b0b;
-  color: #fff;
-}
-
-.wrapper .icon:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-
-}
-
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  color: #274685;
 }
 
 
@@ -135,7 +44,7 @@
 }
 
 .contact .info {
-  border-top: 3px solid #37517e;
+  border-top: 3px solid #274685;
 
   padding: 30px;
   background: #fff;
@@ -145,7 +54,7 @@
 
 .contact .info i {
   font-size: 20px;
-  color: #37517e;
+  color: #274685;
   float: left;
   width: 44px;
   height: 44px;
@@ -169,7 +78,7 @@
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #37517e;
+  color:#274685;;
 }
 
 .contact .info .email p {
@@ -196,20 +105,22 @@
 }
 
 .contact .info .social-links a:hover {
-  background: #37517e;
+  background: linear-gradient(
+-45deg, #1391a5, #274685) !important;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #37517e;
+  background: linear-gradient(
+-45deg, #1391a5, #274685) !important;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #37517e;
+  border-top: 3px solid #274685;
   padding: 30px;
   background: #fff;
   box-shadow: 7px 0px 5px -3px grey, 0px 8px 7px -3px gray, -7px 0px 5px -3px rgba(180, 179, 179, 0.5);
@@ -230,7 +141,8 @@
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: linear-gradient(
+-45deg, #1391a5, #274685) !important;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -243,7 +155,8 @@
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #37517e;
+  background: linear-gradient(
+-45deg, #1391a5, #274685) !important;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -263,7 +176,7 @@
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #37517e;
+  border: 3px solid #274685;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -287,7 +200,7 @@
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #37517e;
+  border-color: #274685;
 }
 
 .contact .php-email-form input {
@@ -299,7 +212,8 @@
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #37517e;
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -308,15 +222,84 @@
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #37517e;
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
 }
 
-/* wave */
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
-
-body {
-  font-family: Lato, sans-serif;
+.contact .iconify {
+  height: 40px;
+  width: 80px;
+  margin-bottom: 5px;
+  background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+  content: url('https://api.iconify.design/logos/google-gmail.svg');
 }
+
+/* contact end*/
+
+/*wrapper start*/
+.wrapper {
+  display: flex;
+}
+
+.wrapper .icon {
+  position: relative;
+  color: black;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 2px 6px 14px 3px #000;
+  cursor: pointer;
+  transition: transform 250ms;
+}
+
+.wrapper .icon:hover {
+  transform: translateY(-10px);
+}
+
+
+.wrapper .twitter {
+  background-color: #1da1f2;
+  font-size: 28px;
+}
+
+.wrapper .linkedin {
+  background-color: #007bb6;
+  font-size: 28px;
+}
+
+.wrapper .facebook {
+  background-color: #3b5998;
+  font-size: 28px;
+}
+
+.wrapper .instagram {
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  font-size: 28px;
+}
+
+.wrapper .youtube {
+  background-color: #ff0000;
+  font-size: 28px;
+}
+
+.wrapper .fab {
+  color: white;
+}
+
+/*wrapper end*/
+
+
+/* wave start*/
 
 footer {
   width: 100vw;
@@ -325,7 +308,8 @@ footer {
 }
 
 footer div {
-  background-color: #37517e;
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
   margin: -5px 0px 0px 0px;
   padding: 0px;
   color: #fff;
@@ -338,20 +322,20 @@ svg {
 
 .arrow {
   stroke-width: .3px;
-  stroke: yellow;
+  stroke: #274685;
 }
 
 
 .wave {
   animation: wave 3s linear;
   animation-iteration-count: infinite;
-  fill: #37517e;
+  fill: #274685;
 }
 
 .drop {
   fill: transparent;
   animation: drop 5s ease infinite normal;
-  stroke: #37517e;
+  stroke: #274685;
   stroke-width: 0.5;
   opacity: .6;
   transform: translateY(80%);
