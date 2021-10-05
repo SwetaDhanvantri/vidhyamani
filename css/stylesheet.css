@@ -629,3 +629,14 @@ svg {
 }
 
 /* no copy end*/
+/*seal start*/
+.seal{
+  color: #274685;
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+  box-shadow: 2px 6px 14px 3px rgb(175, 171, 171);
+  text-align: center;
+  
+}
+/*seal end*/
+
