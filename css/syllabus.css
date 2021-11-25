@@ -1,0 +1,38 @@
+html,
+body {
+  font-family: Roboto,sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* first start*/
+.first{
+    margin-top: 100px;
+}
+.first .container{
+  padding-top: 20px;
+}
+.first h4{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 29px;
+    color: #274685;
+
+}
+/* second start*/
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+  }

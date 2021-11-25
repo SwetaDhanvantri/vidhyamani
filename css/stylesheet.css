@@ -466,21 +466,11 @@ footer div {
   color: white;
 }
 
+
+
 /* social icons end*/
 
-/* Subscribe start */
 
-
-
-.subscribe .card {
-  padding: 20px 20px 20px 20px;
-  background: linear-gradient(
-    -45deg, #1391a5, #274685) !important;
-  margin-top: 10px;
-  border: none;
-}
-
-/*subscribe end*/
 
 /*php-email start*/
 .php-email-form .btn {
@@ -502,6 +492,60 @@ footer div {
 
 
 /*php-email end*/
+/* Subscribe start*/
+.subscribe{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+.subscribe .container{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+}
+.subscribe h3{
+  font-size: 26px;
+  font-weight: 600;
+}
+.subscribe input[type=text] {
+    
+  padding: 12px 20px;
+  
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  width: 80%;
+  height:22%;
+  border:1px solid #7c7b7b;
+}
+.subscribe ::placeholder { 
+  color: #000;
+  opacity: 1;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+
+
+}
+.subscribe button{
+height: 45px;
+padding: 0;
+margin: 0;
+
+}
+.subscribe .btn{
+
+width: 14%;
+margin-left: 5px;
+font-size: 20px;
+
+}
+.subscribe .fa{
+  margin-left: 5px;
+}
+
+/*subscribe end*/
 
 /* footer waves start*/
 svg {

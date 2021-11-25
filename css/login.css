@@ -1,0 +1,159 @@
+html,
+body {
+  font-family: Roboto,sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: linear-gradient(
+-45deg, #1391a5, #274685) !important;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        -45deg, #1391a5, #274685) !important;
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+        -45deg, #1391a5, #274685) !important;
+  }
+  
+  @media (min-width: 768px) {
+    .gradient-form {
+        margin-top: 50px;
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+  
+
+  /*sign up start*/
+  h4{
+      text-align: center;
+      margin-top: 40px;
+  }
+  .signup{
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 80px;
+  }
+
+
+
+  
+/*wave start*/
+
+svg {
+    width: 100%;
+  }
+  
+  .arrow {
+    stroke-width: .3px;
+    stroke: #274685;
+  }
+  
+  
+  .wave {
+    animation: wave 3s linear;
+    animation-iteration-count: infinite;
+    fill: #274685;
+  }
+  
+  .drop {
+    fill: transparent;
+    animation: drop 5s ease infinite normal;
+    stroke:#274685;
+    stroke-width: 0.5;
+    opacity: .6;
+    transform: translateY(80%);
+  }
+  
+  .drop1 {
+    transform-origin: 20px 3px;
+  }
+  
+  .drop2 {
+    animation-delay: 3s;
+    animation-duration: 3s;
+    transform-origin: 25px 3px;
+  }
+  
+  .drop3 {
+    animation-delay: -2s;
+    animation-duration: 3.4s;
+    transform-origin: 16px 3px;
+  }
+  
+  .gooeff {
+    filter: url(#goo);
+  }
+  
+  #wave2 {
+    animation-duration: 5s;
+    animation-direction: reverse;
+    opacity: .6
+  }
+  
+  #wave3 {
+    animation-duration: 7s;
+    opacity: .3;
+  }
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(80%);
+      opacity: .6;
+    }
+  
+    80% {
+      transform: translateY(80%);
+      opacity: .6;
+    }
+  
+    90% {
+      transform: translateY(10%);
+      opacity: .6;
+    }
+  
+    100% {
+      transform: translateY(0%) scale(1.5);
+      stroke-width: 0.2;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes wave {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes ball {
+    to {
+      transform: translateY(20%);
+    }
+  }
+  
+  .page-footer .icon .fas {
+    font-size: 50px;
+    padding: 20px;
+  
+  }
+  
+  .page-footer .iconify {
+    height: 40px;
+    width: 80px;
+    margin-bottom: 5px;
+    background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/google-gmail.svg');
+  }
+  /*wave end */

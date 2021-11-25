@@ -19,13 +19,13 @@
   </head>
   <body class="noselect">
  
-        
+  
 <!--Navbar start-->
 <header class="header">
   <div class="container">
     <nav class="navbar fixed-top navbar-expand-lg">
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="https://www.vidhyamani.com/">
         <img src="images/mansi.png" width="80" height="50" class="d-inline-block align-top ml-2" alt=""><h5>Vidhyamani</h5>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -136,7 +136,7 @@
            </div>
          </div>
 </section>
-
+<div id="like_button_container"></div>   
        <section class="section2 text-center justify-content-center mb-5">
         <div class="text-center  justify-content-center pb-5"><h4>WE OFFER YOU</h4></div>
 
@@ -239,9 +239,20 @@
   
 
  </div>
-        
+ <!--subscribe start-->
+ <section class=" subscribe bg-dark text-center p-5 mt-4 ">
+  <div class="container p-3">
+    <h3 class="text-white">SUBSCRIBE NOW</h3>
+   
+        <form action="#" method="Post">
+          <input type="text" name="text" placeholder="Enter Your Email Id">
+          <button type="button" class="btn btn-default">Subscribe<i class="fa fa-envelope"></i></button>
+        </form>
+      </div>
+    
+</section>
  
-      
+      <!--subscribe end-->
 
   <!-- Copyright -->
   <div class=" container-fluid footer-copyright text-center py-4">© 2021 Copyright:
@@ -305,6 +316,15 @@
 
 <script src="js/index.js"></script>
 <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+<!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+</body>
 </html>
 
    

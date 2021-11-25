@@ -1,0 +1,15 @@
+/******font family start*****/
+@font-face {
+    font-family: Abel;
+    src: url('../fonts/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family: Anton;
+    src: url('../fonts/Anton-Regular.ttf');
+}
+@font-face {
+    font-family: Josefin;
+    src: url('../fonts/static/JosefinSans-Regular.ttf');
+}
+/******font family end*****/

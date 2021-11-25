@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://www.vidhyamani.com/</loc>
+  <lastmod>2021-10-08T08:37:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vidhyamani.com/index.html</loc>
+  <lastmod>2021-10-08T08:37:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vidhyamani.com/about.html</loc>
+  <lastmod>2021-10-08T08:44:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vidhyamani.com/courses.html</loc>
+  <lastmod>2021-10-05T10:43:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vidhyamani.com/team.html</loc>
+  <lastmod>2021-10-05T10:44:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vidhyamani.com/career.html</loc>
+  <lastmod>2021-10-08T09:05:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vidhyamani.com/faq.html</loc>
+  <lastmod>2021-10-05T10:44:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vidhyamani.com/contact.html</loc>
+  <lastmod>2021-10-05T10:43:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
