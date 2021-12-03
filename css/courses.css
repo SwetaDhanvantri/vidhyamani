@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: Roboto,sans-serif;
+    font-family: 'Open Sans',sans-serif;
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -185,14 +185,14 @@ footer div {
 /*footer end*/
 
 .fab {
-    font-family: 'Font Awesome 5 Brands';
+    font-family: 'Open Sans',sans-serif;
     font-weight: 400;
   }
   
   .page-footer {
     background-color: white;
     color:#274685;
-    padding: 20px;
+    
   }
   .page-footer .container{
     padding: 30px 20px 20px 20px;

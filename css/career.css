@@ -7,7 +7,7 @@ html {
 }
 html,
 body {
-  font-family: Roboto,sans-serif;
+  font-family: 'Open Sans',sans-serif;
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -154,7 +154,7 @@ footer div {
   .page-footer {
     background-color: white;
     color:#274685;
-    padding: 20px;
+    
   }
   .page-footer .container{
     padding: 30px 20px 20px 20px;

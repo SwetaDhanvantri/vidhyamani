@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: Roboto,sans-serif;
+  font-family: 'Open Sans',sans-serif;
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -143,17 +143,4 @@ svg {
     }
   }
   
-  .page-footer .icon .fas {
-    font-size: 50px;
-    padding: 20px;
-  
-  }
-  
-  .page-footer .iconify {
-    height: 40px;
-    width: 80px;
-    margin-bottom: 5px;
-    background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
-    content: url('https://api.iconify.design/logos/google-gmail.svg');
-  }
   /*wave end */
