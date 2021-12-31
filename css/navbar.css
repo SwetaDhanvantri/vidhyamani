@@ -38,19 +38,38 @@ body {
 
 .navbar .navbar-nav li a {
     color: #fff !important;
-    transition: transform .2s;
+ 
     /* animation */
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
     margin-right: 20px;
     font-size: 14px;
-}
-
-.navbar .navbar-nav li a:hover {
-    -ms-transform: scale(1.5) !important;
-    -webkit-transform: scale(1.5) !important;
-    transform: scale(1.5) !important;
+  
 }
 
 
 
-
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

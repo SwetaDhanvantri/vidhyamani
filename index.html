@@ -12,12 +12,18 @@
 
     <link rel="stylesheet" href="css/navbar.css">  
     <link rel="stylesheet" href="css/stylesheet.css"> 
+
   
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-     
-
+    <!--anmation-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="css/animate.css">
+    
   </head>
-  <body class="noselect">
+  < class="noselect">
  
   
 <!--Navbar start-->
@@ -35,30 +41,30 @@
         <div class="mx-auto ">
         <ul class="navbar-nav text-center">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            <a class="nav-link hover-underline-animation" href="index.html">Home <span class="sr-only"></span></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link hover-underline-animation" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="courses.html">Courses</a>
+            <a class="nav-link hover-underline-animation" href="courses.html">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="team.html">Team</a>
+            <a class="nav-link hover-underline-animation" href="team.html">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="career.html">Career</a>
+            <a class="nav-link hover-underline-animation" href="career.html">Career</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link hover-underline-animation" href="faq.html">FAQ</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="login.html">Login/Register</a>
+            <a class="nav-link hover-underline-animation" href="contact.html">Contact</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link hover-underline-animation" href="login.html">Login/Register</a>
           </li>
           
         </ul>
@@ -79,13 +85,13 @@
             <div class="row">
               <div class="col-lg-7 col-sm-6">
                 <div class="d-flex flex-column">
-                  <div> <h1 class="py-5">Gear Yourself for the Most Unique Teaching Experience Ever</h1></div>
-                  <div><h3 class="pb-3">Shape and boost your future with Vidhyamani</h3></div>
-                  <div><button class="btn btn-light px-5 py-2"><a href="about.html" class="button">Get Started</a></button></div>
+                  <div> <h1 class="py-5 wow animate__animated animate__fadeInUp" >Gear Yourself for the Most Unique Teaching Experience Ever</h1></div>
+                  <div><h3 class="pb-3 wow animate__animated animate__fadeInUp" >Shape and boost your future with Vidhyamani</h3></div>
+                  <div><button class="btn wow btn-light px-5 py-2 animate__animated animate__fadeInUp" ><a href="about.html" class="button">Get Started</a></button></div>
                 </div>
              </div>
-              <div class="col-lg-5 col-sm-6">
-                <img src="images/hero-img.png"  class="img-fluid" alt="Responsive image">
+              <div class="col-lg-5 col-sm-6 wow animate__animated animate__zoomIn">
+                <img src="images/hero-img.png"  class="img-fluid " alt="Responsive image">
               </div>
 
             </div>
@@ -96,12 +102,12 @@
         <section class="esection">
          <div class="row">
           <div class="col-xl-5 col-sm-6">
-            <img src="images/image_5-removebg-preview.png"  class="img-fluid image
+            <img src="images/image_5-removebg-preview.png"  class="img-fluid image wow animate__animated  animate__fadeInUp 
             " alt="Responsive image">
           </div>
          <div class="col-xl-7 col-sm-6"> 
-           <h2 class="text-center">Earn With Us!</h2>
-          <p>
+           <h2 class="text-left wow animate__animated  animate__fadeInRight ">Earn With Us!</h2>
+          <p class=" text-left wow animate__animated  animate__fadeInRight ">
             We are looking for the talented teachers which are passionate about teaching and can help to grow organisation as well as student’s future.
             We believe that a great teacher are who which can help student to grow both physically and mentally. If you want to experience how it feels like to work with vidhyamani then mail us your resume.
   
@@ -192,8 +198,20 @@
          
        </div>
        </section>
-      </main>
 
+
+       <section class="brain">
+         <div class="row">
+           <div class="col-xl-5 col-sm-6 col-md-6"><div class="pt-4"><img src="images/image_2-removebg-preview.png" class="img-fluid image
+            " alt="Responsive image"></div></div>
+           <div class="col-xl-7 col-sm-6 col-md-6"><div class="container">Let's make your <span style="color:#f27c1e">dreams</span> come true
+          <div class="text-center"> <button type="button" class="btn "><a href="courses.html">GET STARTED</a></button></div></div>
+          </div>
+         </div>
+         
+       </section>
+      </main>
+ 
      
       <!-- Footer -->
       
@@ -320,13 +338,12 @@
 <script src="js/index.js"></script>
 <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 
-<!-- Load React. -->
-  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<!--anmation-->
 
-  <!-- Load our React component. -->
-  <script src="like_button.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+  </script>
 </body>
 </html>
 

@@ -17,9 +17,10 @@ body {
 
 
 
+
 .header .container {
   padding-top: 30px;
-  margin-top: 40px;
+
   overflow: hidden;
   width: 100%;
 }
@@ -71,32 +72,7 @@ body {
   color: inherit;
 }
 
-.section0 .btn::before {
-  content: "";
-  background-color: rgb(255, 255, 255, 0.5);
-  transform: skew(-45deg) translate(0);
-  transition: 0;
-}
 
-.section0 .btn:hover {
-  color: #274685;
-  background-color: #fff;
-}
-
-.section0 .btn:hover::before {
-  transform: skew(-45deg) translateX(13.5em);
-  transition: all 0.3s ease-in-out;
-}
-
-.section0 .btn:active {
-  background-color: #787A91;
-  color: #274685;
-}
-
-.section0 .btn:active:before {
-  transform: translate(-4px);
-  transition: translate 0.3s ease-in-out;
-}
 
 .section0 img {
   height: auto;
@@ -168,6 +144,7 @@ body {
 
 
 /* esction start*/
+
 .esection {
   margin-top: 40px;
   width: 100%;
@@ -183,20 +160,24 @@ body {
 }
 
 .esection h2 {
-  font-size: 38px;
+  font-size: 34px;
   padding-top: 60px;
+  padding-left: 50px;
   font-weight: 700;
   color: #274685;
+  font-family: "Roboto", sans-serif !important;
 }
 
 .esection p {
+  font-family: "Roboto", sans-serif !important;
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  font-size: 20px;
-  color: #000;
+  font-size: 16px;
+  color: #444444;
   font-weight: 400;
   text-align: left;
+  max-width: 700px;
 
 }
 
@@ -209,10 +190,10 @@ body {
 
 .esection .earn {
   text-decoration: none;
-  border: 3px solid #274685;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #274685;
 }
 
 .earn:hover {
@@ -411,6 +392,35 @@ footer div {
   background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
   content: url('https://api.iconify.design/logos/google-gmail.svg');
 }
+
+
+/* brain start*/
+.brain{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+.brain .container{
+  justify-content: left;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 37px;
+  color: rgb(248, 237, 237);
+}
+.brain .btn{
+  color: #fff;
+  background:linear-gradient(
+    220deg,#f27c1e 0,#dd4c23 79%);
+  cursor: pointer;
+  padding-left: 20px;
+ padding-right: 20px;
+}
+.brain a{
+  color: #fff;
+  text-decoration: none;
+}
+/*brain end */
+
 
 /* social icons start*/
 
