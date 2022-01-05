@@ -19,58 +19,63 @@
   <body class="noselect">
     
   <!--Navbar start-->
-  <header class="headert">
-    <div class="container">
-      
-      <nav class="navbar fixed-top navbar-expand-lg">
+  <header class="header0">
+    <div class="text-center">
+      <a class="navbar-brand ml-3" href="#" style="text-decoration: none; color:black;">
+     <p>
+     Vidhyamani Welcomes you
+  </p>
+      </a>
+    </div>
 
-        <a class="navbar-brand" href="">
-          <img src="images/mansi.png" width="80" height="50" class="d-inline-block align-top ml-2" alt="Vidhyamani" title="Vidhyamani">
-          <h5>Vidhyamani</h5>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span  class="fas fa-bars fa-1x"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <div class="mx-auto ">
-          <ul class="navbar-nav text-center">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg justify-content-between">
+      <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbar-list-9" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse order-3 order-lg-2 " id="navbar-list-9">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+              <a class="nav-link hover-underline-animation" href="index.html">Home <span class="sr-only"></span></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link hover-underline-animation" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="team.html">Team</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="career.html">Career</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="faq.html">FAQ</a>
+              <a class="nav-link hover-underline-animation" href="courses.html">Courses</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link hover-underline-animation" href="career.html">Career</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Login/Register</a>
+              <a class="nav-link hover-underline-animation" href="faq.html">FAQ</a>
             </li>
-
-          </ul>
-          </div>
             
-          
-        </div>
-      </nav>
-         
-    </div> 
-  </header>
+            <li class="nav-item">
+              <a class="nav-link hover-underline-animation" href="contact.html">Contact</a>
+            </li>
+        </ul>
+      </div>
+      <a class="navbar-brand mx-lg-0 order-1 order-lg-1  w-100" href="#">
+        <img src="images/mansi.png" width="80" height="60" alt="logo">
+       
+      </a>
+      <div class="collapse navbar-collapse justify-content-end w-100 order-3" id="navbar-list-9">
+          <ul class="navbar-nav">
+              <li><i class="fa fa-shopping-cart hover-underline-animation" aria-hidden="true"></i></li>
+              <li class="nav-item dropdown">
+              <a class="nav-link " href="login.html" id="">
+                  <button class="btn btn-link hover-underline-animation"> Login</button>
+              
+              </a>
+             <li>
+          <a class="nav-link" href="login.html"><button class="btn btn-warning ">Sign up</button></a>
+       
+            </li>   
+          </ul>    
+      </div>
+    </nav>
+</header>
       <!--Navbar end-->
 
  <!-- ======= Team Section ======= -->
@@ -217,41 +222,7 @@
      <a href=""> vidhyamani.com</a>
    </div>
    <!-- Copyright -->
-   <svg viewBox="0 0 120 28">
-     <defs> 
-       <mask id="xxx">
-         <circle cx="7" cy="12" r="40" fill="#fff" />
-       </mask>
-       
-       <filter id="goo">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
-          <feColorMatrix in="blur" mode="matrix" values="
-               1 0 0 0 0  
-               0 1 0 0 0  
-               0 0 1 0 0  
-               0 0 0 13 -9" result="goo" />
-          <feBlend in="SourceGraphic" in2="goo" />
-        </filter>
-         <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-      </defs> 
-    
-       <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
-       <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
-     
-      
-      <g class="gooeff">
-      <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
-      <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
-      <circle class="drop drop3" cx="16" cy="2.8" r="1.2"  />
-        <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
-      
-        <!-- g mask="url(#xxx)">
-        <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-        </g>
-      </g -->
-    
-    </svg>
-    
+  
  
  </footer>
  <!-- Footer -->

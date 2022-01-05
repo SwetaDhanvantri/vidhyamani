@@ -15,11 +15,14 @@ body {
   --------------------------------------------------------------*/
 .contact {
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 120px;
+  margin-bottom: 40px;
 
   justify-content: center;
 }
-
+.form1 a{
+  color: #000;
+}
 .contact .container {
   padding-bottom: 40px;
 }

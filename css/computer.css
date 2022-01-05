@@ -1,13 +1,20 @@
   
+html {
+  scroll-behavior: smooth;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+}
+
 html,
 body {
-    font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans',sans-serif !important;
   background-color: #fff;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
-
 
 
 .course-comp {
@@ -70,7 +77,7 @@ body {
     margin-left: -1.3em; /* same as padding-left set on li */
     width: 1.3em; /* same as padding-left set on li */
   }
-  .div-off{
+  .comp-learn .div-off{
    
     margin-top: 20px;
   }
@@ -130,11 +137,11 @@ body {
   }
  /* learn section end*/
 
-  
-  /*Footer start*/
-  
- 
+/*Footer start*/
+
+
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
 
 
 footer {
@@ -146,7 +153,7 @@ footer {
 
 footer div {
   background-color: #fff;
-  margin: -5px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
   padding: 0px;
   color: #274685;
   text-align: center;
@@ -158,92 +165,75 @@ footer div {
   font-weight: 400;
 }
 
-.page-footer {
-  background-color: white;
-  color:#274685;
+.page-footer1 {
+ margin-top: 170px;
+ 
   
 }
-.page-footer .container{
-  padding: 30px 20px 20px 20px;
-  border: solid rgb(247, 243, 243);
-  background-color: #fff;
-  box-shadow: 10px 10px 5px rgb(202, 202, 202);
-  
-  margin-bottom: 30px;
-}
 
-.page-footer h4{
-  font-size: 29px;
-  font-weight: 700;
-}
-
-.page-footer .container-fluid {
-  background-color: #fff;
-
-}
-
-.page-footer a {
-  color: #274685;
-
-}
-.page-footer a:hover{
-  color:inherit;
- 
-}
-
-
-.page-footer .icon .fas {
-  font-size: 50px;
- 
-
-}
-
-.page-footer p {
+.page-footer1 h4{
   font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  color: #000;
+  padding-right: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.page-footer h5{
+.page-footer1 .lower-foot{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
+}
+
+
+
+
+.page-footer1 .icon .fas {
+  font-size: 30px;
+ }
+
+.page-footer1 p {
+  font-size: 16px;
+  text-align: left;
+  width: 220PX;
+  color: #e7dfdf;
+  
+}
+.page-footer1 h5{
   color: #fff;
    justify-content: center;
-   text-align: center;
+   text-align: left;
+   font-size: 20px !important;
+   font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+  
   }
  
-  .page-footer .head{
-   padding: 10px;
-    border:1px solid #274685;
-    color: #fff;
-    background: linear-gradient(
--45deg, #1391a5, #274685) !important;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    margin-bottom: 40px;
-}
-
+  
 
  
-.page-footer .iconify {
-  height: 40px;
-  width: 80px;
-
-  margin-bottom: 30px;
+.page-footer1 .iconify {
+  height: 20px;
+  width: 40px;
   background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
   content: url('https://api.iconify.design/logos/google-gmail.svg');
 }
 
 /* social icons start*/
+.wrapper{
+background-color:inherit;
+}
 
 .wrapper .icon {
   color: black;
-  background-color: #fff;
+  background-color: #2083f8;
   border-radius: 50%;
   padding: 10px;
   margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 22px;
- box-shadow: 2px 6px 14px 3px rgb(175, 171, 171);
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+
   cursor: pointer;
   transition: transform 250ms;
 }
@@ -253,17 +243,17 @@ footer div {
 
 .wrapper .twitter {
   background-color: #1da1f2;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .wrapper .linkedin {
   background-color: #007bb6;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .wrapper .facebook {
   background-color: #3b5998;
-  font-size: 28px;
+  font-size: 20px;
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -274,12 +264,12 @@ footer div {
   background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .wrapper .youtube {
   background-color: #ff0000;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .wrapper .fab {
@@ -289,29 +279,41 @@ footer div {
 
 
 /* social icons end*/
-
-
-
-/*php-email start*/
-.php-email-form .btn {
-  color: #fff;
+/*lower footer*/
+.lower{
   background: linear-gradient(
     -45deg, #1391a5, #274685) !important;
-  margin-top: 10px;
-  font-size: 20px;
-  border: 2px solid white;
-
+}
+.lower div{
+  background-color: inherit;
 }
 
-
-.php-email-form .btn:hover {
-  background-color: #fff;
-  color: #274685;
+.lower img{
+  height: 30px;
+  width: 30px;
+}
+.lower ul{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower li{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower a{
+  color: #ffffff;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower .cs{
+  color:#f2f2f2;
+  font-size: 16px !important;
+  padding: 5px;
 }
 
-
-
-/*php-email end*/
+/*lower footer end*/
 /* Subscribe start*/
 .subscribe{
   background: linear-gradient(
@@ -366,113 +368,6 @@ font-size: 20px;
 }
 
 /*subscribe end*/
-
-/* footer waves start*/
-svg {
-  width: 100%;
-}
-
-.arrow {
-  stroke-width: .3px;
-  stroke: #274685;
-}
-
-
-.wave {
-  animation: wave 3s linear;
-  animation-iteration-count: infinite;
-  fill: #274685;
-}
-
-.drop {
-  fill: transparent;
-  animation: drop 5s ease infinite normal;
-  stroke: #274685;
-  stroke-width: 0.5;
-  opacity: .6;
-  transform: translateY(80%);
-}
-
-.drop1 {
-  transform-origin: 20px 3px;
-}
-
-.drop2 {
-  animation-delay: 3s;
-  animation-duration: 3s;
-  transform-origin: 25px 3px;
-}
-
-.drop3 {
-  animation-delay: -2s;
-  animation-duration: 3.4s;
-  transform-origin: 16px 3px;
-}
-
-.gooeff {
-  filter: url(#goo);
-  -webkit-filter: url(#goo);
-}
-
-#wave2 {
-  animation-duration: 5s;
-  animation-direction: reverse;
-  opacity: .6
-}
-
-#wave3 {
-  animation-duration: 7s;
-  opacity: .3;
-}
-
-@keyframes drop {
-  0% {
-    transform: translateY(80%);
-    opacity: .6;
-  }
-
-  80% {
-    transform: translateY(80%);
-    opacity: .6;
-  }
-
-  90% {
-    transform: translateY(10%);
-    opacity: .6;
-  }
-
-  100% {
-    transform: translateY(0%) scale(1.5);
-    stroke-width: 0.2;
-    opacity: 0;
-    -webkit-transform: translateY(0%) scale(1.5);
-    -moz-transform: translateY(0%) scale(1.5);
-    -ms-transform: translateY(0%) scale(1.5);
-    -o-transform: translateY(0%) scale(1.5);
-}
-}
-
-@keyframes wave {
-  to {
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-}
-}
-
-@keyframes ball {
-  to {
-    transform: translateY(20%);
-    -webkit-transform: translateY(20%);
-    -moz-transform: translateY(20%);
-    -ms-transform: translateY(20%);
-    -o-transform: translateY(20%);
-}
-}
-
-/* footer waves end*/
 /* footer end*/
 
 
@@ -496,8 +391,7 @@ svg {
 /*seal start*/
 .seal{
   color: #274685;
-  background: linear-gradient(
-    -45deg, #1391a5, #274685) !important;
+ 
   box-shadow: 2px 6px 14px 3px rgb(175, 171, 171);
   text-align: center;
   

@@ -75,16 +75,18 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 .service-box {
   margin-bottom: 40px;
-  background: #fff;
+  background: #f2f2f2;
+  color: #000;
   text-align: center;
   padding: 45px 25px 30px 25px;
-  border: 1px solid transparent;
+  border: 1px solid rgb(214, 213, 213);
   transition: all .3s ease 0s;
   border-radius: 5px;
-  box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
+  box-shadow: 1px 2px 6px rgb(0 0 0 / 10%);
 }
 .service-box:hover {
-  background: #f5cb22;
+  background: #fff;
+  color:black;
 }
 
 #service-head {
@@ -147,7 +149,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   padding: 20px;
   text-align: center;
   color: #274685;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -165,19 +167,17 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   background-color: #fff;
   color:#424344;
   margin: 20px;
+  font-size: 16px;
   text-align: left;
   border:solid 2px rgb(189, 185, 185);
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  box-shadow: 0px 0px 15px #f5cb22;
+ 
 }
 
-.about .container:hover{
-  background: #f5cb22;
-  box-shadow: 0px 0px 15px #fff;
-}
+
 
  
 
@@ -204,6 +204,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 /* footer---*/
 
+/*Footer start*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+
+
 footer {
   width: 100%;
   background-color: white;
@@ -213,7 +220,7 @@ footer {
 
 footer div {
   background-color: #fff;
-
+  margin: 5px 0px 0px 0px;
   padding: 0px;
   color: #274685;
   text-align: center;
@@ -226,93 +233,74 @@ footer div {
 }
 
 .page-footer {
-  background-color: white;
-  color:#274685;
-
-}
-.page-footer .container{
+ margin-top: 170px;
+ 
   
-  padding: 30px 20px 20px 20px;
-  border: solid rgb(247, 243, 243);
-  background-color: #fff;
-  box-shadow: 10px 10px 5px rgb(202, 202, 202);
-  
-  margin-bottom: 30px;
 }
 
 .page-footer h4{
-  font-size: 29px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  color: #000;
+  padding-right: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.page-footer .lower-foot{
+  background: linear-gradient(
+    -45deg, #1391a5, #274685) !important;
 }
 
-.page-footer .container-fluid {
-  background-color: #fff;
- 
-}
 
-.page-footer a {
-  color: #274685;
 
-}
-.page-footer a:hover{
-  color:inherit;
- 
-}
 
 .page-footer .icon .fas {
-  font-size: 50px;
-  padding: 20px;
-
-}
+  font-size: 30px;
+ }
 
 .page-footer p {
-  font-size: 18px;
-  text-align: center;
+  font-size: 16px;
+  text-align: left;
+  width: 220PX;
+  color: #e7dfdf;
+  
 }
 .page-footer h5{
   color: #fff;
    justify-content: center;
-   text-align: center;
-   padding: 10px;
+   text-align: left;
+   font-size: 20px !important;
+   font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 20px;
+  
   }
  
-  .page-footer .head{
-    padding: 0px;
-    border:1px solid #274685;
-    color: #fff;
-    background: linear-gradient(
--45deg, #1391a5, #274685) !important;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    margin-bottom: 40px;
-}
-
+  
 
  
 .page-footer .iconify {
-  height: 40px;
-  width: 80px;
-
-  margin-bottom: 30px;
+  height: 20px;
+  width: 40px;
   background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
   content: url('https://api.iconify.design/logos/google-gmail.svg');
 }
 
 /* social icons start*/
+.wrapper{
+background-color:inherit;
+}
 
 .wrapper .icon {
   color: black;
-  background-color: #fff;
+  background-color: #2083f8;
   border-radius: 50%;
   padding: 10px;
   margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 22px;
- box-shadow: 2px 6px 14px 3px rgb(175, 171, 171);
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+
   cursor: pointer;
   transition: transform 250ms;
 }
@@ -322,17 +310,17 @@ footer div {
 
 .wrapper .twitter {
   background-color: #1da1f2;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .wrapper .linkedin {
   background-color: #007bb6;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .wrapper .facebook {
   background-color: #3b5998;
-  font-size: 28px;
+  font-size: 20px;
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -343,12 +331,12 @@ footer div {
   background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .wrapper .youtube {
   background-color: #ff0000;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .wrapper .fab {
@@ -356,7 +344,30 @@ footer div {
 }
 
 
- 
+
+/* social icons end*/
+/*lower footer*/
+
+.lower-foot div{
+  background-color: inherit;
+}
+
+.lower-foot img{
+  height: 30px;
+  width: 30px;
+}
+.lower-foot ul, li, a{
+  color:#e7dfdf;
+  line-height: 28px;
+  font-size: 16px;
+}
+.lower-foot .cs{
+  color:#e7dfdf;
+  font-size: 16px !important;
+  padding: 5px;
+}
+
+/*lower footer end*/
 /*wave start*/
 
 svg {
