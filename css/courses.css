@@ -11,65 +11,6 @@ body {
 }
 
 
-/* Main*/
-.services h4 {
-    text-align: center;
-    padding: 40px;
-    color: #274685;
-    font-weight: bold;
-    font: 16px;
-
-}
-
-.services .container {
-    padding: 50px;
-}
-
-.services a {
-    text-decoration: none;
-    color: #000;
-}
-
-.services h5 {
-    color: black;
-    text-align: center;
-    padding-top: 10px;
-    font-weight: bold;
-    padding-bottom: 40px;
-    padding-top: 20px;
-
-}
-
-.services .icon-box {
-    padding: 20px;
-    margin-top: 50px;
-    background-color: antiquewhite;
-}
-
-.services h6 {
-    font-weight: 600;
-    text-align: center;
-    padding-right: 30px;
-
-}
-
-.services h3 {
-
-    font-weight: bold;
-    color:#274685;
-}
-
-.services table {
-
-    font-size: 18px;
-
-
-}
-
-.services .table2 {
-    font-size: 18px;
-}
-
 
 
 /*course*/
@@ -100,10 +41,12 @@ a:hover{
 .course h3{
     color: #274685;
     padding: 30px;
+    font-size: 24px;
 }
 .course h4{
     color: #274685;
-    padding: 30px;
+    padding: 10px;
+    font-size: 18px;
 }
 
 .courses-area .properties__caption {
@@ -133,6 +76,7 @@ a:hover{
 .course .btn1{
     background-color: #e26b26;
     color: #fff;
+    margin-top: 20px;
     
     
 }
@@ -190,7 +134,7 @@ a {
     box-shadow: 0 15px 18px rgba(179, 179, 179, .6);
 }
 .course .properties__caption{
-    padding: 20px;
+    padding: 0px 10px 0px 10px;
 }
 .course .fa-star{
     color: rgb(236, 173, 13);
@@ -202,37 +146,10 @@ a {
 /* course end */
 
 
-.box div {
-    background-color: #fff;
-    box-shadow: 0 15px 18px rgba(179, 179, 179, .6);
-    margin-bottom: 20px;
-}
-
-main {
-    margin-top: 60px;
-}
-
-main h4 {
-
-    color:#274685;
-    font-weight: 700;
-    font-size: 26px;
-}
 
 
 
-.typing-container {
-    margin-top: 50px;
-    margin-bottom: 80px;
-    padding-top: 50px;
-    padding-bottom: 80px;
-    font-size: 52px;
-    font-weight: 700;
-}
 
-.typing-container .sentence {
-    color: #274685;
-}
 
 /* footer */
 
