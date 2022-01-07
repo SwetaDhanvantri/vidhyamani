@@ -25,6 +25,9 @@ body {
 }
 
 /* section0 start*/
+.section0{
+  margin-top: 100px;
+}
 .section0 .container-fluid {
   background: linear-gradient(
 -45deg, #1391a5, #274685) !important;
@@ -442,12 +445,12 @@ background-color:inherit;
   width: 30px;
 }
 .lower-footer ul, li, a{
-  color:#e7dfdf;
+  color:#e7dfdf !important;
   line-height: 28px;
   font-size: 16px;
 }
 .lower-footer .cs{
- color: #fff;
+ color: #fff !important;
   font-size: 16px !important;
   padding: 5px;
 }
@@ -556,3 +559,4 @@ font-size: 20px;
 }
 /*seal end*/
 
+/*crousal*/
